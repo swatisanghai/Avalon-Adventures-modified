@@ -1,0 +1,123 @@
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0097b2;
+    color: #292929;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center; /* Center align content */
+}
+
+header {
+    background-color: #1d4286;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+    margin: 20px 40px 115px; /* Adjust the top margin here */
+   /* margin: 0;
+    text-align: center;*/
+}
+
+
+
+#main-nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 50px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+nav ul li:hover a {
+    background-color: black;
+    border-color: #fff;
+    color: #fff;
+}
+
+.buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1d4286;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #010f11;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-container {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+h2 {
+    margin-top: 50px; /* Add top margin to center the h2 */
+}
+.content p {
+    margin-bottom: 40px; /* Add bottom margin to create space between paragraphs */
+}
