@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Contact Us - Avalon Adventures</title>
+    <!-- Link to external CSS file -->
+    <!-- <link rel="stylesheet" href="styles.css">  -->
+    <link rel="stylesheet" href="contact-us.css"> <!-- Link to contact-us specific CSS file -->
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Heading for the header -->
+        <h1>Contact Us</h1>
+    </header>
+    <!-- Main content section -->
+    <main>
+        <!-- Contact form section -->
+        <section class="contact-form">
+            <!-- Heading for the contact form -->
+            <h2>Get In Touch</h2>
+            <!-- Form for contacting -->
+            <form id="contactForm" onsubmit="return validateForm()">
+                <!-- Form group for name input -->
+                <div class="form-group">
+                    <!-- Label for name input -->
+                    <label for="name">Name *</label>
+                    <!-- Input field for name -->
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <!-- Form group for email input -->
+                <div class="form-group">
+                    <!-- Label for email input -->
+                    <label for="email">Email *</label>
+                    <!-- Input field for email -->
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <!-- Form group for phone input -->
+                <div class="form-group">
+                    <!-- Label for phone input -->
+                    <label for="phone">Phone</label>
+                    <!-- Input field for phone -->
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <!-- Form group for question textarea -->
+                <div class="form-group">
+                    <!-- Label for question textarea -->
+                    <label for="question">Question *</label>
+                    <!-- Textarea for question -->
+                    <textarea id="question" name="question" rows="4" required></textarea>
+                </div>
+                <!-- Submit button for the form -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- Contact information section -->
+        <section class="contact-info">
+            <!-- Heading for contact information -->
+            <h2>Contact Information</h2>
+            <!-- Paragraph for email address -->
+            <p>Email: info@AvalonAdventures.ca</p>
+            <!-- Paragraph for phone number -->
+            <p>Phone: 709-555-5555</p>
+            <!-- Paragraph for physical address -->
+            <p>Address: 123 Adventure Street, Avalon Peninsula, NL, Canada</p>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2024 Avalon Adventures</p>
+    </footer>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
