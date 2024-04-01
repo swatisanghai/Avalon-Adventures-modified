@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="book_tour.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <!-- <div class="container"> -->
+            <h1>Avalon Adventures</h1>
+        <!-- </div>     -->
+    <h2>Booking Form</h2>
+    
+    <!-- Booking Form HTML -->
+    <form id="bookingForm" class="booking-content">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="service">Service:</label>
+        <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="Adult-Brewey-Crawl">Adult-Brewey-Crawl</option>
+            <option value="Famly-Culture-Pacakage">Famly-Culture-Pacakage</option>
+            <option value="Family-Ferryland-Adventure">Family-Ferryland-Adventure</option>
+            <option value="Novice-East-Coast-Hiking-Experience">Novice-East-Coast-Hiking-Experience</option>
+            <option value="Whale-Watching">Whale-Watching</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="message">Additional Comments:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+   <!-- Footer -->
+   <footer>
+    <div class="container">
+        <p>&copy; 2024 Avalon Adventures</p>
+    </div>
+</footer>
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+<!-- Link to external JavaScript file -->
+<script src="book_tou.js"></script>
+
+</body>
+</html>
