@@ -1,0 +1,132 @@
+/* CSS styles for Booking Tour page */
+
+/* Apply a CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set base styles for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Set styles for the header */
+header {
+    background-color: #1d4286; /* Background color for header */
+    color: #fff; /* Text color for header */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add padding */
+}
+
+/* Set styles for h1 inside header */
+header h1 {
+    font-size: 2em; /* Set font size */
+    margin: 30px; /* Remove default margin */
+}
+header h2 {
+    font-size: 1em; /* Set font size */
+    margin: 0; /* Remove default margin */
+}
+
+/* Center the booking content vertically and horizontally */
+.booking-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the content occupies the full viewport height */
+    
+}
+/* Set styles for the booking form container */
+.booking-form-container {
+    background-color: #495051; /* Background color for form container */
+   /* padding: 20px 30px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    /*max-width: 500px; /* Set max width for the form container */
+    width: auto; /* Ensure it takes full width */
+   /* justify-content: center;*/
+   text-align: left;
+   
+}
+
+/* Set styles for the booking form */
+#bookingForm {
+    background-color: #3a3c3c;
+   /* width: 100%; /* Ensure the form spans the entire width of the container */
+    /* max-width: none; */ /* Remove the restriction imposed by max-width */
+    padding: 40px 200px; 
+    text-align: left; /* Align text to the left */
+    color: white;
+   /* align-content: center;*/
+   /*justify-content: center;*/
+   /* text-align: left;*/
+   
+
+}
+
+/* Add padding and border-radius to form elements for rounded corners */
+#bookingForm input[type="date"],
+#bookingForm input[type="text"],
+#bookingForm input[type="email"],
+#bookingForm input[type="tel"],
+
+#bookingForm textarea {
+    /*width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+   /* padding: 20px 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;*/
+    padding: 30px 100px;
+    border-radius: 10px;
+    /*border: 1px solid #ccc; /* Add border for clarity */
+    width: auto; /* Set width to auto to allow the element to determine its own width */
+    display: block; /* Ensure each input field appears on its own line */
+    margin-bottom: 20px; /* Add margin at the bottom to separate input fields */
+   /* text-align: left;*/
+   /* background-color: #484646;*/
+   /*justify-content: center;*/
+}
+
+/* Set styles for the select element */
+#bookingForm select {
+   /* width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+    /*padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;*/
+    padding: 30px 60px;
+    border-radius: 10px;
+    /*border: 1px solid #ccc; /* Add border for clarity */
+    width: auto; /* Set width to auto to allow the element to determine its own width */
+    display: block; /* Ensure each input field appears on its own line */
+    margin-bottom: 20px; /* Add margin at the bottom to separate input fields */
+   /* text-align: left;*/
+   /* background-color: #484646;*/
+   /*justify-content: center;*/
+}
+
+/* Set styles for the button */
+#bookingForm button {
+    background-color: #1458d5;
+    color: black;
+    border: none;
+    padding: 10px 160px;
+    border-radius: 5px;
+    cursor: pointer;
+    /*width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+}
+#bookingForm button:hover {
+    background-color: #0097b2; /* Button color on hover */
+}
+
+
+/* Set styles for the footer */
+footer {
+    background-color: #292929; /* Background color for footer */
+    color: #fff; /* Text color for footer */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding */
+}
