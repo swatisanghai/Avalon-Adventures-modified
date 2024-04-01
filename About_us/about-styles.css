@@ -1,0 +1,51 @@
+/* Styles specific to the About Us page */
+/* Update styles for the main content area on the About Us page */
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure that main takes up at least the full height of the viewport */
+}
+
+/* Update styles for the footer on the About Us page */
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the page */
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Reset default styles and define global styles */
+/* ... */
+
+/* Additional styles specific to the About Us page */
+/* ... */
+
+
+/* Update styles for headings within the about section */
+#about h2 {
+    text-align: center;
+    color: #1d4286;
+    font-size: 24px; /* Increase font size */
+    margin-bottom: 30px; /* Increase spacing below the heading */
+    text-transform: uppercase; /* Convert text to uppercase */
+   /* border-bottom: 2px solid #1d4286; /* Add a bottom border */
+    padding-bottom: 10px; /* Add padding below the border */
+}
+
+/* Update styles for headings within the mission and vision sections */
+#about h3, #about h3 {
+    text-align: center;
+    color: #1d4286;
+    font-size: 20px; /* Increase font size */
+    margin-bottom: 20px; /* Increase spacing below the heading */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+/* Update styles for paragraphs within the about section, mission, and vision sections */
+#about p, #mission p, #vision p {
+    text-align: justify; /* Align text to justify */
+    margin-bottom: 20px; /* Increase spacing between lines */
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
