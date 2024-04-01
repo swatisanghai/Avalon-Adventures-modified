@@ -1,0 +1,125 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2; /* Background color */
+    color: #292929; /* Text color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d4286;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.service:hover {
+    background-color: #0097b2;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0097b2;
+    color: #fff;
+}
+
+.price-table td:first-child {
+    font-weight: bold;
+}
+
+/*.running-line {
+    font-style: italic;
+    margin-top: 20px;
+    color: #1d4286;
+}*/
+
+
+.service {
+    margin-bottom: 1cm; /* Add a margin of 1 cm below each service */
+}
+/*  style the running line */
+.running-line {
+    background-color: #b01e56; /* Light gray background color */
+    padding: 10px; /* Add padding for spacing */
+    margin-top: 20px; /* Add margin to separate from the table */
+    text-align: center; /* Center-align the text */
+    font-style: italic; /* Italicize the text */
+}
+/* Existing CSS styles */
+
+/* Keyframes for flashing animation */
+
+@keyframes flash {
+    0% { opacity: 1; color: #000; } /* Fully opaque text with dark color */
+    50% { opacity: 0; } /* 50% opacity to hide the text */
+    100% { opacity: 1; color: #000; } /* Fully opaque text with dark color */
+}
+
+/* Apply flashing animation to the running line */
+.running-line {
+    animation: flash 1s infinite; /* Flashing animation with a duration of 1 second */
+}
+
