@@ -1,0 +1,130 @@
+/* CSS styles for Contact Us page */
+
+/* Apply a CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set base styles for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Set styles for the header */
+header {
+    background-color: #1d4286; /* Background color for header */
+    color: #fff; /* Text color for header */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add padding */
+}
+
+/* Set styles for h1 inside header */
+header h1 {
+    font-size: 2em; /* Set font size */
+    margin: 30px; /* Remove default margin */
+}
+header h2 {
+    font-size: 1em; /* Set font size */
+    margin: 0; /* Remove default margin */
+}
+
+/* Center the contact content vertically and horizontally */
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the content occupies the full viewport height */
+}
+
+.contact-form,
+.contact-info {
+    background-color: #1d4286; /* Background color for header */
+    color: #fff; /* Text color for header */
+    text-align: center; /* Center-align the text */
+    padding: 20px;
+   /* padding-left: 20px; /* Adjust the left padding */
+    /*margin-bottom: 20px; /* Add margin at the bottom */
+    /*max-width: 300px; /* Limiting max-width of the content */
+    width: auto; /* Ensure content takes full width */
+   /* text-align: center;*/
+}
+
+h1 {
+    text-align: center; /* Center-align the heading */
+    align-content: center;
+}
+h2 {
+    text-align: center; /* Center-align the heading */
+}
+
+/* Add margin-bottom to create space between form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    width: 100%; /* Ensure the contact form spans the entire width of the page */
+    padding: 20px 80px;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Add border around the contact form */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   /* margin-bottom: 20px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3a3c3c;
+   /* text-align: left; /* Align text to the left */
+    color: white;
+
+}
+
+/* Add padding and border-radius to form elements for rounded corners */
+.contact-form form,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 30px 100px;
+    border-radius: 10px;
+    /*border: 1px solid #ccc; /* Add border for clarity */
+    width: auto; /* Set width to auto to allow the element to determine its own width */
+    display: block; /* Ensure each input field appears on its own line */
+    margin-bottom: 20px; /* Add margin at the bottom to separate input fields */
+    text-align: left;
+   /* background-color: #484646;*/
+   
+}
+
+
+
+button {
+    background-color: #1458d5; /* Default button color */
+    color: #05010a;
+    border: none;
+    padding: 10px 160px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self:center; /* Center the button vertically */
+}
+
+button:hover {
+    background-color: #0097b2; /* Button color on hover */
+}
+
+/*.contact-form form {
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 0.1);
+}*/
+
+button {
+    margin-bottom: 30px; /* Add margin at the bottom */
+}
+/* Set styles for the footer */
+footer {
+    background-color: #292929; /* Background color for footer */
+    color: #fff; /* Text color for footer */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding */
+}
